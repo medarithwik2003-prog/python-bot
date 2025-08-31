@@ -665,7 +665,7 @@ html_code = """
             />
           </div>
           <div class="form-group">
-            <label for="job">Her Profession</label>
+            <label for="job">Profession</label>
             <input
               type="text"
               id="job"
@@ -676,7 +676,7 @@ html_code = """
         </div>
 
         <div class="form-group">
-          <label for="hobbies">Her Hobbies</label>
+          <label for="hobbies">Hobbies</label>
           <input
             type="text"
             id="hobbies"
@@ -686,7 +686,7 @@ html_code = """
         </div>
 
         <div class="form-group">
-          <label for="personality">Her Personality</label>
+          <label for="personality">Personality</label>
           <input
             type="text"
             id="personality"
@@ -1079,3 +1079,4 @@ Anjali: Kal tumne mujhe bubu nahi bulaya 😤"
 
 
 components.html(html_code, height=900, scrolling=True)
+
